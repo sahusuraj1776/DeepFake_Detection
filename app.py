@@ -1,7 +1,7 @@
 from flask import Flask,request,jsonify,render_template
 from gevent.pywsgi import WSGIServer
 import numpy as np
-import pandas as pd
+# import pandas as pd
 import keras
 import cv2
 import tensorflow as tf
