@@ -8,7 +8,7 @@ import cv2
 import os
 
 app = Flask(__name__)
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+# os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 # model = tf.keras.layers.TFSMLayer("Notebook//BestModel.weights.h5", call_endpoint="serving_default")
 model = keras.models.load_model("models//BestModel.keras")
